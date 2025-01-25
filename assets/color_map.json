@@ -1,0 +1,698 @@
+[
+    {
+        "color": [
+            184,
+            167,
+            146
+        ],
+        "image": "Alabaster.png"
+    },
+    {
+        "color": [
+            67,
+            162,
+            192
+        ],
+        "image": "Apatite.png"
+    },
+    {
+        "color": [
+            194,
+            124,
+            84
+        ],
+        "image": "Arkose.png"
+    },
+    {
+        "color": [
+            90,
+            86,
+            78
+        ],
+        "image": "Basalt.png"
+    },
+    {
+        "color": [
+            117,
+            103,
+            88
+        ],
+        "image": "Bat Rock.png"
+    },
+    {
+        "color": [
+            84,
+            83,
+            72
+        ],
+        "image": "Black Coal.png"
+    },
+    {
+        "color": [
+            28,
+            39,
+            42
+        ],
+        "image": "Black Ore.png"
+    },
+    {
+        "color": [
+            101,
+            50,
+            36
+        ],
+        "image": "Bloodstone.png"
+    },
+    {
+        "color": [
+            146,
+            114,
+            76
+        ],
+        "image": "Breccia.png"
+    },
+    {
+        "color": [
+            119,
+            114,
+            103
+        ],
+        "image": "Brick-Black.png"
+    },
+    {
+        "color": [
+            113,
+            164,
+            140
+        ],
+        "image": "Brick-Blue.png"
+    },
+    {
+        "color": [
+            244,
+            214,
+            175
+        ],
+        "image": "Brick-Coade Stone.png"
+    },
+    {
+        "color": [
+            98,
+            184,
+            92
+        ],
+        "image": "Brick-Green.png"
+    },
+    {
+        "color": [
+            208,
+            151,
+            177
+        ],
+        "image": "Brick-Pink.png"
+    },
+    {
+        "color": [
+            204,
+            114,
+            76
+        ],
+        "image": "Brick-Red.png"
+    },
+    {
+        "color": [
+            219,
+            208,
+            185
+        ],
+        "image": "Brick-White.png"
+    },
+    {
+        "color": [
+            218,
+            159,
+            69
+        ],
+        "image": "Brick-Yellow.png"
+    },
+    {
+        "color": [
+            94,
+            91,
+            79
+        ],
+        "image": "Cassiterite.png"
+    },
+    {
+        "color": [
+            137,
+            113,
+            63
+        ],
+        "image": "Cat Gold.png"
+    },
+    {
+        "color": [
+            131,
+            108,
+            67
+        ],
+        "image": "Chalcopyrite.png"
+    },
+    {
+        "color": [
+            181,
+            170,
+            151
+        ],
+        "image": "Chert.png"
+    },
+    {
+        "color": [
+            203,
+            95,
+            83
+        ],
+        "image": "Cinnabar.png"
+    },
+    {
+        "color": [
+            180,
+            116,
+            66
+        ],
+        "image": "Conchite.png"
+    },
+    {
+        "color": [
+            121,
+            118,
+            105
+        ],
+        "image": "Diabase.png"
+    },
+    {
+        "color": [
+            120,
+            122,
+            118
+        ],
+        "image": "Diorite.png"
+    },
+    {
+        "color": [
+            138,
+            132,
+            105
+        ],
+        "image": "Direvein.png"
+    },
+    {
+        "color": [
+            163,
+            148,
+            112
+        ],
+        "image": "Dolomite.png"
+    },
+    {
+        "color": [
+            121,
+            140,
+            120
+        ],
+        "image": "Dross.png"
+    },
+    {
+        "color": [
+            139,
+            141,
+            114
+        ],
+        "image": "Eclogite.png"
+    },
+    {
+        "color": [
+            174,
+            125,
+            90
+        ],
+        "image": "Feldspar.png"
+    },
+    {
+        "color": [
+            121,
+            115,
+            93
+        ],
+        "image": "Flint.png"
+    },
+    {
+        "color": [
+            183,
+            152,
+            55
+        ],
+        "image": "Fluorospar.png"
+    },
+    {
+        "color": [
+            133,
+            129,
+            104
+        ],
+        "image": "Gabbro.png"
+    },
+    {
+        "color": [
+            89,
+            91,
+            81
+        ],
+        "image": "Galena.png"
+    },
+    {
+        "color": [
+            113,
+            121,
+            127
+        ],
+        "image": "Gneiss.png"
+    },
+    {
+        "color": [
+            105,
+            97,
+            90
+        ],
+        "image": "Granite.png"
+    },
+    {
+        "color": [
+            124,
+            125,
+            115
+        ],
+        "image": "Graywacke.png"
+    },
+    {
+        "color": [
+            145,
+            162,
+            126
+        ],
+        "image": "Greenschist.png"
+    },
+    {
+        "color": [
+            127,
+            110,
+            91
+        ],
+        "image": "Heavy Earth.png"
+    },
+    {
+        "color": [
+            138,
+            123,
+            103
+        ],
+        "image": "Hornblende.png"
+    },
+    {
+        "color": [
+            133,
+            135,
+            113
+        ],
+        "image": "Horn Silver.png"
+    },
+    {
+        "color": [
+            168,
+            90,
+            14
+        ],
+        "image": "Iron Ochre.png"
+    },
+    {
+        "color": [
+            168,
+            77,
+            28
+        ],
+        "image": "Jasper.png"
+    },
+    {
+        "color": [
+            161,
+            149,
+            139
+        ],
+        "image": "Korund.png"
+    },
+    {
+        "color": [
+            156,
+            182,
+            212
+        ],
+        "image": "Kyanite.png"
+    },
+    {
+        "color": [
+            95,
+            96,
+            101
+        ],
+        "image": "Lava Rock.png"
+    },
+    {
+        "color": [
+            101,
+            97,
+            94
+        ],
+        "image": "Lead Glance.png"
+    },
+    {
+        "color": [
+            143,
+            126,
+            105
+        ],
+        "image": "Leaf Ore.png"
+    },
+    {
+        "color": [
+            194,
+            178,
+            143
+        ],
+        "image": "Limestone.png"
+    },
+    {
+        "color": [
+            78,
+            130,
+            84
+        ],
+        "image": "Malachite.png"
+    },
+    {
+        "color": [
+            232,
+            216,
+            195
+        ],
+        "image": "Marble.png"
+    },
+    {
+        "color": [
+            205,
+            139,
+            67
+        ],
+        "image": "Metal-Bronze.png"
+    },
+    {
+        "color": [
+            54,
+            54,
+            51
+        ],
+        "image": "Metal-Cast Iron.png"
+    },
+    {
+        "color": [
+            206,
+            84,
+            2
+        ],
+        "image": "Metal-Copper.png"
+    },
+    {
+        "color": [
+            254,
+            202,
+            48
+        ],
+        "image": "Metal-Gold.png"
+    },
+    {
+        "color": [
+            72,
+            97,
+            97
+        ],
+        "image": "Metal-Lead.png"
+    },
+    {
+        "color": [
+            138,
+            112,
+            179
+        ],
+        "image": "Metal-Metiron.png"
+    },
+    {
+        "color": [
+            243,
+            108,
+            75
+        ],
+        "image": "Metal-RoseGold.png"
+    },
+    {
+        "color": [
+            233,
+            234,
+            236
+        ],
+        "image": "Metal-Silver.png"
+    },
+    {
+        "color": [
+            216,
+            239,
+            246
+        ],
+        "image": "Metal-Steel.png"
+    },
+    {
+        "color": [
+            159,
+            170,
+            159
+        ],
+        "image": "Metal-Tin.png"
+    },
+    {
+        "color": [
+            190,
+            191,
+            190
+        ],
+        "image": "Metal-Wrought Iron.png"
+    },
+    {
+        "color": [
+            89,
+            92,
+            100
+        ],
+        "image": "Meteorite.png"
+    },
+    {
+        "color": [
+            149,
+            138,
+            126
+        ],
+        "image": "Mica.png"
+    },
+    {
+        "color": [
+            174,
+            130,
+            90
+        ],
+        "image": "Microlite.png"
+    },
+    {
+        "color": [
+            35,
+            38,
+            43
+        ],
+        "image": "Obsidian.png"
+    },
+    {
+        "color": [
+            94,
+            99,
+            48
+        ],
+        "image": "Olivine.png"
+    },
+    {
+        "color": [
+            184,
+            158,
+            106
+        ],
+        "image": "Orthoclase.png"
+    },
+    {
+        "color": [
+            185,
+            164,
+            136
+        ],
+        "image": "Pegmatite.png"
+    },
+    {
+        "color": [
+            141,
+            71,
+            53
+        ],
+        "image": "Porphyry.png"
+    },
+    {
+        "color": [
+            141,
+            129,
+            114
+        ],
+        "image": "Pumice.png"
+    },
+    {
+        "color": [
+            114,
+            119,
+            145
+        ],
+        "image": "Quarryartz.png"
+    },
+    {
+        "color": [
+            187,
+            172,
+            139
+        ],
+        "image": "Quartz.png"
+    },
+    {
+        "color": [
+            205,
+            163,
+            132
+        ],
+        "image": "Rhyolite.png"
+    },
+    {
+        "color": [
+            210,
+            121,
+            117
+        ],
+        "image": "Rock Crystal.png"
+    },
+    {
+        "color": [
+            161,
+            114,
+            69
+        ],
+        "image": "Sandstone.png"
+    },
+    {
+        "color": [
+            112,
+            93,
+            72
+        ],
+        "image": "Schist.png"
+    },
+    {
+        "color": [
+            165,
+            128,
+            96
+        ],
+        "image": "Schrifterz.png"
+    },
+    {
+        "color": [
+            85,
+            102,
+            85
+        ],
+        "image": "Serpentine.png"
+    },
+    {
+        "color": [
+            129,
+            125,
+            95
+        ],
+        "image": "Silvershine.png"
+    },
+    {
+        "color": [
+            79,
+            54,
+            45
+        ],
+        "image": "Slag.png"
+    },
+    {
+        "color": [
+            94,
+            101,
+            98
+        ],
+        "image": "Slate.png"
+    },
+    {
+        "color": [
+            141,
+            141,
+            131
+        ],
+        "image": "Soapstone.png"
+    },
+    {
+        "color": [
+            152,
+            171,
+            205
+        ],
+        "image": "Sodalite.png"
+    },
+    {
+        "color": [
+            201,
+            154,
+            126
+        ],
+        "image": "Sunstone.png"
+    },
+    {
+        "color": [
+            147,
+            75,
+            77
+        ],
+        "image": "Wine Glance.png"
+    },
+    {
+        "color": [
+            82,
+            137,
+            124
+        ],
+        "image": "Zincspar.png"
+    }
+]
