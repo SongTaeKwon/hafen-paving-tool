@@ -16,16 +16,16 @@ body {
 #outputContainer {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 20px;
     gap: 20px;
-    flex-direction: column;
+
 }
 
 #imageAndSummary {
     display: none; 
     align-items: flex-start;
-    width: 100%;
+    width: 70%;
 }
 
 #outputImage {
@@ -40,6 +40,20 @@ body {
 #tileUsage {
     display: flex;
     max-width: 48%;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    text-align: left;
+    max-height: 500px;
+}
+
+#tileSelection {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
     background-color: #ffffff;
     padding: 10px;
     border: 1px solid #ddd;

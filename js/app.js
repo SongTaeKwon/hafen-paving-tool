@@ -8,6 +8,7 @@ fetch('assets/color_map.json')
     .then(response => response.json())
     .then(data => {
         colorMap = data;
+        createTileCheckboxes()
         console.log("Color map loaded", colorMap);
     })
     .catch(error => console.error('Error loading color map:', error));
@@ -93,6 +94,8 @@ async function convertToTileImage(inputImg) {
         console.error('Error occurred during image conversion:', error);
         document.getElementById('imageAndSummary').style.display = 'none';
         errorMessage.style.display = 'flex';
+    } finally {
+      inputImageElement.value = "";
     }
 }
 
@@ -116,8 +119,13 @@ function displayTileUsage(tileUsageCount) {
 function findClosestTile(r, g, b) {
     let closestTile = null;
     let minDistance = Infinity;
+    const excludedTiles = getExcludedTiles();
 
     colorMap.forEach(tile => {
+        if (excludedTiles.includes(tile.image)) {
+            return;
+        }
+
         const [tileR, tileG, tileB] = tile.color;
         const distance = Math.sqrt(
             Math.pow(r - tileR, 2) + Math.pow(g - tileG, 2) + Math.pow(b - tileB, 2)
@@ -130,4 +138,33 @@ function findClosestTile(r, g, b) {
     });
 
     return closestTile;
+}
+
+function createTileCheckboxes() {
+    const tileCheckboxesContainer = document.getElementById("tileCheckboxes");
+    tileCheckboxesContainer.innerHTML = '';
+
+    colorMap.forEach(tile => {
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.id = `exclude_${tile.image}`;
+        checkbox.value = tile.image;
+        checkbox.checked = false;
+
+        const label = document.createElement("label");
+        label.setAttribute("for", checkbox.id);
+        label.textContent = tile.image.replace(".png", "");
+
+        const container = document.createElement("div");
+        container.appendChild(checkbox);
+        container.appendChild(label);
+        tileCheckboxesContainer.appendChild(container);
+    });
+}
+
+function getExcludedTiles() {
+    const excludedTiles = [];
+    const checkboxes = document.querySelectorAll("#tileCheckboxes input[type='checkbox']:checked");
+    checkboxes.forEach(checkbox => excludedTiles.push(checkbox.value));
+    return excludedTiles;
 }
